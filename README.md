@@ -1,0 +1,1 @@
+# Creating-automatic-language-files-in-Laravel.
