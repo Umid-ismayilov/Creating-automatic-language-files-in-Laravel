@@ -8,7 +8,6 @@
 ![GitHub Repo stars](https://img.shields.io/github/stars/Umid-ismayilov/Creating-automatic-language-files-in-Laravel.?style=social)
 
 # Creation  Automatic language files in Laravel
-Api Debug with telegram
 Like all developers, I used to spend quite a lot of time transferring the static texts of new projects into language files... 
 There are libraries available for such tasks, but customizing them after installing via Composer can be difficult... 
 Therefore, I decided to write my own. I hope it will be useful for you too.
