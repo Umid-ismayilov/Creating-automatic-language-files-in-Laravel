@@ -15,6 +15,7 @@ class LocalizeBladeText extends Command
     {
         $path = resource_path('views/front/pages/');
         $fileName = 'about.blade.php';
+        // or $fileName = '*.blade.php'; allfile in pages folder
         $finder = new Finder();
         $finder->files()->in($path)->name($fileName);
 
