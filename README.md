@@ -1,4 +1,4 @@
-# Creation  Automatic language files in Laravel
+
 
 ![GitHub all releases](https://img.shields.io/github/downloads/Umid-ismayilov/Creating-automatic-language-files-in-Laravel./total)
 ![GitHub language count](https://img.shields.io/github/languages/count/Umid-ismayilov/Creating-automatic-language-files-in-Laravel.)
