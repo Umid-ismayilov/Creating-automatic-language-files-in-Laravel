@@ -30,6 +30,7 @@ class LocalizeBladeText extends Command
                 foreach ($texts as $text) {
                     $cleanString = preg_replace('/{{\s*\$[a-zA-Z_][a-zA-Z0-9_]*\s*}}/', '', $text);
                     $cleanString = trim($cleanString);
+                    $text        = trim($text);
                     if (!empty($cleanString) && !isset($formattedStrings[$cleanString]) &&   !preg_match('/^@(extends|lang|section|include|yield|stack|push|once|endsection|endif|endforeach)(\s*\(.+\))?/',
                             $cleanString)) {
                         $html = str_replace('>' . $text, ">@lang('$_fileName.$text')", $html);
